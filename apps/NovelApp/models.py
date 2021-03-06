@@ -29,6 +29,7 @@ class Novel(DeleteBaseModels):
     desc = models.CharField("简介", max_length=256, default="暂无简介信息")
     Author = models.ForeignKey(Author, on_delete=models.CASCADE, verbose_name="作者")
     NovelClass = models.ForeignKey(NovelClass, on_delete=models.CASCADE, verbose_name="小说类型")
+    is_vip = models.BooleanField("是否vip 收费", default=False)
 
     class Meta:
         verbose_name_plural = verbose_name = "小说"
