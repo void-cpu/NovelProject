@@ -51,7 +51,7 @@ class NovelViewSets(ModelViewSet):
 
 class InfoViewSets(ModelViewSet):
     """
-    小说信息管理
+    内容信息管理
     """
     queryset = Info.objects.all()
     serializer_class = InfoSerializers

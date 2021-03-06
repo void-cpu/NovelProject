@@ -1,0 +1,20 @@
+[2021-03-07 23:51:39,219] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-07 23:51:43,416] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-03-07 23:51:43,417] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 179
+[2021-03-07 23:51:47,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2021-03-07 23:51:47,466] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3742
+[2021-03-07 23:51:47,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+[2021-03-07 23:51:47,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+[2021-03-07 23:51:47,690] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-03-07 23:51:48,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2021-03-07 23:51:49,011] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 21637
+[2021-03-07 23:51:49,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2021.3 HTTP/1.1" 200 1254
+[2021-03-07 23:51:49,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2021.3 HTTP/1.1" 200 811
+[2021-03-07 23:51:49,092] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-07 23:51:49,093] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-07 23:51:49,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js?_=2021.3 HTTP/1.1" 200 524
+[2021-03-07 23:51:49,102] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/menu.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-07 23:51:49,102] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/index.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-07 23:51:49,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/theme.js?_=2021.3 HTTP/1.1" 200 4274
+[2021-03-07 23:51:49,104] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.js?_=2021.3 HTTP/1.1" 200 6329
+[2021-03-07 23:51:49,314] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
