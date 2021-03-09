@@ -625,3 +625,42 @@ TypeError: Object of type UserModel is not JSON serializable
 [2021-03-09 20:55:31,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
 [2021-03-09 20:55:31,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
 [2021-03-09 20:55:31,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:56:12,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/ HTTP/1.1" 200 12355
+[2021-03-09 20:56:17,342] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/?user=1 HTTP/1.1" 200 11680
+[2021-03-09 20:56:42,503] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/models.py changed, reloading.
+[2021-03-09 20:56:43,040] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:57:44,830] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/models.py changed, reloading.
+[2021-03-09 20:57:45,251] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:57:51,559] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/models.py changed, reloading.
+[2021-03-09 20:57:51,935] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:58:10,465] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/models.py changed, reloading.
+[2021-03-09 20:58:10,853] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:58:35,459] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/models.py changed, reloading.
+[2021-03-09 20:58:35,870] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:58:43,489] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/?user=1 HTTP/1.1" 200 12020
+[2021-03-09 20:58:43,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:58:43,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:58:43,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:58:43,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:58:43,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:58:43,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:59:56,846] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:59:57,291] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:59:59,870] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/?user=1 HTTP/1.1" 200 11739
+[2021-03-09 20:59:59,899] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:59:59,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:59:59,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:59:59,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:59:59,918] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:59:59,918] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 21:00:08,848] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 21:00:09,489] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 21:00:10,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/?user=1 HTTP/1.1" 200 11726
+[2021-03-09 21:00:10,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 21:00:10,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 21:00:10,155] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 21:00:10,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 21:00:10,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 21:00:10,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 21:00:18,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/1 HTTP/1.1" 301 0
+[2021-03-09 21:00:18,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/1/ HTTP/1.1" 200 11757

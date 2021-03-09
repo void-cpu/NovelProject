@@ -14,6 +14,7 @@ class UserModel(BaseModels):
 
 class UserAnotherConfig(UserModels):
     user = models.OneToOneField(UserModel, on_delete=models.CASCADE, verbose_name="用户")
+    UserBalance = models.DecimalField(max_length=10, max_digits=8, decimal_places=2, default=0.00, verbose_name="用户余额")
 
     class Meta:
         verbose_name_plural = verbose_name = "用户扩展"
