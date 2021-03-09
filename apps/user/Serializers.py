@@ -24,3 +24,9 @@ class UserAnotherAnotherActionSerializers(UserAnotherCreateSerializers):
     class Meta:
         model = UserAnotherConfig
         fields = '__all__'
+
+
+class UserAnotherBlankSerializers(UserAnotherCreateSerializers):
+    class Meta:
+        model = UserAnotherConfig
+        fields = '__all__'

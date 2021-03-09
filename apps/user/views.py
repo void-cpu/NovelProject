@@ -1,3 +1,4 @@
+import decimal
 import random
 
 from django.contrib.auth.hashers import make_password, check_password
@@ -132,3 +133,18 @@ class UserAnotherViewSet(ModelViewSet):
             return UserAnotherCreateSerializers
         else:
             return UserAnotherAnotherActionSerializers
+
+    @action(methods=['get', 'put'], detail=True)
+    def UerBlankChange(self, request, pk=None):
+        _object = UserAnotherConfig.objects.get(id=pk)
+        if request.method == "GET":
+            return Response(UserAnotherBlankSerializers(_object, many=False).data, status=status.HTTP_200_OK)
+        else:
+            blank_change = request.data.get("blank_change")
+            if UserViewSets.is_value_json(blank_change):
+                return Response(BaseResponse(Message=ResponseMessage.NullMessage.value).__str__(),
+                                status=status.HTTP_401_UNAUTHORIZED)
+            else:
+                _object.UserBalance = _object.UserBalance + decimal.Decimal(blank_change)
+                _object.save()
+                return Response(UserAnotherBlankSerializers(_object, many=False).data, status=status.HTTP_201_CREATED)
