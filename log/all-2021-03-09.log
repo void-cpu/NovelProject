@@ -157,3 +157,471 @@ TypeError: object of type 'NoneType' has no len()
 [2021-03-09 20:38:18,212] [log.py:224] [log:log_response] [WARNING]- Unauthorized: /api/User/2/PhoneCode/
 [2021-03-09 20:38:18,213] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/User/2/PhoneCode/ HTTP/1.1" 401 48
 [2021-03-09 20:39:09,104] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:42:31,145] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/BaseConfig/Models.py changed, reloading.
+[2021-03-09 20:42:31,694] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:42:55,431] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/BaseConfig/Models.py changed, reloading.
+[2021-03-09 20:42:55,828] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:43:48,135] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/BaseConfig/Models.py changed, reloading.
+[2021-03-09 20:43:48,520] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:44:24,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2021-03-09 20:44:24,368] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3742
+[2021-03-09 20:44:24,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 200 500
+[2021-03-09 20:44:24,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 304 0
+[2021-03-09 20:44:24,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 200 669
+[2021-03-09 20:44:24,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 304 0
+[2021-03-09 20:44:24,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+[2021-03-09 20:44:24,495] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+[2021-03-09 20:44:25,966] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2021-03-09 20:44:26,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 22265
+[2021-03-09 20:44:26,155] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2021.3 HTTP/1.1" 200 811
+[2021-03-09 20:44:26,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2021.3 HTTP/1.1" 200 1254
+[2021-03-09 20:44:26,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 200 3861
+[2021-03-09 20:44:26,169] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 200 7134
+[2021-03-09 20:44:28,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/usermodel/ HTTP/1.1" 200 24548
+[2021-03-09 20:44:28,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 200 524
+[2021-03-09 20:44:28,755] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 200 6305
+[2021-03-09 20:44:28,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2021-03-09 20:44:28,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[2021-03-09 20:44:28,824] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2021-03-09 20:44:28,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:44:28,829] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2021-03-09 20:44:28,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2021-03-09 20:44:29,255] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:44:29,297] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:44:30,248] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/add/ HTTP/1.1" 200 19423
+[2021-03-09 20:44:30,277] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+[2021-03-09 20:44:30,279] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+[2021-03-09 20:44:30,279] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:44:30,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2021-03-09 20:44:30,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2021-03-09 20:44:30,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2021-03-09 20:44:30,474] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2021-03-09 20:44:36,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:44:36,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:45:16,727] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 22265
+[2021-03-09 20:45:16,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,777] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,782] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/theme.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/menu.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,784] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,810] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/index.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:16,810] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+[2021-03-09 20:45:16,980] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:45:17,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:45:18,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 22265
+[2021-03-09 20:45:18,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/theme.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/menu.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,564] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/index.js?_=2021.3 HTTP/1.1" 304 0
+[2021-03-09 20:45:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+[2021-03-09 20:45:18,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:45:18,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:45:20,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/usermodel/ HTTP/1.1" 200 24548
+[2021-03-09 20:45:20,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:45:23,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/add/ HTTP/1.1" 200 19423
+[2021-03-09 20:45:23,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:45:37,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:45:37,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 20:48:44,601] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/views.py changed, reloading.
+[2021-03-09 20:48:45,116] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:48:45,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/add/ HTTP/1.1" 200 19423
+[2021-03-09 20:48:46,255] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23820
+[2021-03-09 20:48:48,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2021-03-09 20:48:48,614] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 22265
+[2021-03-09 20:48:49,241] [log.py:224] [log:log_response] [WARNING]- Unauthorized: /api/User/2/PhoneCode/
+[2021-03-09 20:48:49,241] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /api/User/2/PhoneCode/ HTTP/1.1" 401 9518
+[2021-03-09 20:48:50,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/User/2/ HTTP/1.1" 200 12003
+[2021-03-09 20:48:53,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/ HTTP/1.1" 200 6147
+[2021-03-09 20:48:55,178] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/ HTTP/1.1" 200 6147
+[2021-03-09 20:48:55,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:48:55,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:48:55,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:48:55,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:48:55,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:48:55,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:48:56,480] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/ HTTP/1.1" 200 10527
+[2021-03-09 20:49:58,692] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:49:59,128] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:49:59,630] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/ HTTP/1.1" 200 10977
+[2021-03-09 20:49:59,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:49:59,657] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:49:59,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:49:59,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:49:59,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:49:59,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:52:43,714] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/views.py changed, reloading.
+[2021-03-09 20:52:44,163] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:52:44,900] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/ HTTP/1.1" 200 10977
+[2021-03-09 20:52:44,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:52:44,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:52:44,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:52:44,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:52:44,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:52:44,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:52:50,658] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /api/UserAnother/ HTTP/1.1" 201 9908
+[2021-03-09 20:52:57,361] [log.py:224] [log:log_response] [WARNING]- Bad Request: /api/UserAnother/
+[2021-03-09 20:52:57,361] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /api/UserAnother/ HTTP/1.1" 400 9858
+[2021-03-09 20:53:01,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /api/UserAnother/ HTTP/1.1" 201 9908
+[2021-03-09 20:53:06,667] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:06,669] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145484
+[2021-03-09 20:53:09,264] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:09,265] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145621
+[2021-03-09 20:53:09,878] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:09,879] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145621
+[2021-03-09 20:53:11,117] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:11,118] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145621
+[2021-03-09 20:53:11,821] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:11,824] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145621
+[2021-03-09 20:53:23,043] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:53:23,665] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:53:24,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/1/ HTTP/1.1" 200 11327
+[2021-03-09 20:53:24,421] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:53:24,442] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:53:24,443] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:53:24,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:53:24,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:53:24,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:53:35,051] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:53:35,688] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:53:36,466] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:36,467] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145607
+[2021-03-09 20:53:37,203] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:53:37,205] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145607
+[2021-03-09 20:54:01,307] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:54:01,757] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:54:02,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/1/ HTTP/1.1" 200 11685
+[2021-03-09 20:54:02,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:54:02,078] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:54:02,081] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:54:02,085] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:54:02,090] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2021-03-09 20:54:02,090] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:55:04,115] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:55:04,780] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:55:05,218] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:55:05,219] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145597
+[2021-03-09 20:55:05,967] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/UserAnother/1/
+Traceback (most recent call last):
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 656, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 567, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/adminuser/PycharmProjects/NovelProject/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserModel is not JSON serializable
+[2021-03-09 20:55:05,968] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/UserAnother/1/ HTTP/1.1" 500 145597
+[2021-03-09 20:55:29,540] [autoreload.py:240] [autoreload:trigger_reload] [INFO]- /home/adminuser/PycharmProjects/NovelProject/apps/user/Serializers.py changed, reloading.
+[2021-03-09 20:55:29,965] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 20:55:31,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/UserAnother/1/ HTTP/1.1" 200 11685
+[2021-03-09 20:55:31,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2021-03-09 20:55:31,530] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2021-03-09 20:55:31,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2021-03-09 20:55:31,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2021-03-09 20:55:31,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2021-03-09 20:55:31,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0

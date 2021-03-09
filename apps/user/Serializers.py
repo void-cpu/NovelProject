@@ -1,4 +1,6 @@
-from rest_framework.serializers import ModelSerializer, ReadOnlyField, HyperlinkedModelSerializer
+from rest_framework.fields import ReadOnlyField
+from rest_framework.serializers import ModelSerializer
+
 
 from .models import *
 
@@ -9,14 +11,15 @@ class UserSerializers(ModelSerializer):
         fields = '__all__'
 
 
-class UserReadOnlySerializers(ReadOnlyField):
+class UserAnotherCreateSerializers(ModelSerializer):
+    # user = UserReadOnlySerializers(read_only=True)
     class Meta:
-        model = UserModel
+        model = UserAnotherConfig
         fields = '__all__'
 
 
-class UserAnotherSerializers(ModelSerializer):
-    user = UserReadOnlySerializers(read_only=True)
+class UserAnotherAnotherActionSerializers(ModelSerializer):
+    user = UserSerializers(read_only=True)
 
     class Meta:
         model = UserAnotherConfig

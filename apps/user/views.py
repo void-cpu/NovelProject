@@ -17,7 +17,7 @@ from .Serializers import *
 class UserViewSets(ModelViewSet):
     queryset = UserModel.objects.all()
     serializer_class = UserSerializers
-    pagination_class = BasePagination
+    pagination_class = UserPagination
     filter_backends = [DjangoFilterBackend]
     filter_fields = {"UserName": ["exact", "in", "contains"], "phone": ["exact", "contains"]}
 
@@ -118,3 +118,17 @@ class UserViewSets(ModelViewSet):
                         is_True=self.is_same_code(code_02=str(PhoneCode), code_01=PhoneodeRedis.__str__())).__str__(),
                     Phone=Phone).__str__(),
                                 status=status.HTTP_401_UNAUTHORIZED)
+
+
+class UserAnotherViewSet(ModelViewSet):
+    queryset = UserAnotherConfig.objects.all()
+    serializer_class = UserAnotherCreateSerializers
+    pagination_class = UserAnotherPagination
+    filter_backends = [DjangoFilterBackend]
+    filter_fields = {"user": ["exact"]}
+
+    def get_serializer_class(self):
+        if self.action == "create":
+            return UserAnotherCreateSerializers
+        else:
+            return UserAnotherAnotherActionSerializers
