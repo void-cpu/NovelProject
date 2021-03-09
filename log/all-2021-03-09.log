@@ -1,0 +1,43 @@
+[2021-03-09 18:33:53,369] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-03-09 18:33:55,602] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-03-09 18:33:55,603] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 179
+[2021-03-09 18:33:55,725] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-03-09 18:34:00,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2021-03-09 18:34:00,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3742
+[2021-03-09 18:34:00,199] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+[2021-03-09 18:34:00,241] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+[2021-03-09 18:34:01,655] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2021-03-09 18:34:01,710] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 22265
+[2021-03-09 18:34:01,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 200 7134
+[2021-03-09 18:34:01,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js?_=2021.3 HTTP/1.1" 200 1186
+[2021-03-09 18:34:01,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js?_=2021.3 HTTP/1.1" 200 524
+[2021-03-09 18:34:01,787] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2021.3 HTTP/1.1" 200 811
+[2021-03-09 18:34:01,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js?_=2021.3 HTTP/1.1" 200 6190
+[2021-03-09 18:34:01,796] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/theme.js?_=2021.3 HTTP/1.1" 200 4274
+[2021-03-09 18:34:01,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/menu.js?_=2021.3 HTTP/1.1" 200 2089
+[2021-03-09 18:34:01,801] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2021.3 HTTP/1.1" 200 1254
+[2021-03-09 18:34:01,801] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.js?_=2021.3 HTTP/1.1" 200 6329
+[2021-03-09 18:34:01,803] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/index.js?_=2021.3 HTTP/1.1" 200 20820
+[2021-03-09 18:34:04,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/useranotherconfig/ HTTP/1.1" 200 23836
+[2021-03-09 18:34:04,259] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 200 189
+[2021-03-09 18:34:04,263] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 200 811
+[2021-03-09 18:34:04,277] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 18:34:04,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 89476
+[2021-03-09 18:34:04,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2021-03-09 18:34:04,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[2021-03-09 18:34:04,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.min.js HTTP/1.1" 200 3237
+[2021-03-09 18:34:04,308] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 200 388
+[2021-03-09 18:34:04,309] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[2021-03-09 18:34:04,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 125266
+[2021-03-09 18:34:04,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[2021-03-09 18:34:04,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2021-03-09 18:34:04,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/usermodel/ HTTP/1.1" 200 23820
+[2021-03-09 18:34:05,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 18:34:05,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/usermodel/add/ HTTP/1.1" 200 17925
+[2021-03-09 18:34:05,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 18:34:05,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[2021-03-09 18:34:05,908] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2021-03-09 18:34:05,908] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10333
+[2021-03-09 18:34:08,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/user/usermodel/ HTTP/1.1" 200 23820
+[2021-03-09 18:34:08,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+[2021-03-09 18:35:19,699] [autoreload.py:617] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

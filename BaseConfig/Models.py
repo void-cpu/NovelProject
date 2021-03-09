@@ -14,3 +14,10 @@ class DeleteBaseModels(BaseModels):
 
     class Meta:
         abstract = True
+
+
+class UserModels(BaseModels):
+    isVip = models.BooleanField(default=False, verbose_name="是否是vip用户")
+
+    class Meta:
+        abstract = True

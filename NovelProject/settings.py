@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'apps.NovelApp.apps.NovelappConfig',
     'django_filters',
+    'apps.user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
